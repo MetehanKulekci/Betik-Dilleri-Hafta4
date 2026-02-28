@@ -1,0 +1,263 @@
+url='https://www.milligazete.com.tr/arsiv/2021-07-'
+for i in range(1,30,1):
+    print(url+str (i))
+
+
+
+url='https://www.milligazete.com.tr/arsiv/2021-07-'
+for i in range(1,30,1):
+    if i<10:
+    print(url+str (i))
+
+
+
+url='https://www.milligazete.com.tr/arsiv/2021-07-'
+for i in range(1,30,1):
+    if i<10:
+        print(url+'0'+str(i))
+    else:
+        print(url+str (i))
+
+
+
+url='https://www.milligazete.com.tr/arsiv/2021-07-'
+def tarih_Yaz(gun):
+    for i in range(1,30,1):
+        if i<10:
+            print(url+'0'+str(i))
+        else:
+            print(url+str (i))
+
+
+
+url='https://www.milligazete.com.tr/arsiv/2021-07-'
+def tarih_Yaz(gun):
+    for i in range(1,gun+1,1):
+        if i<10:
+            print(url+'0'+str(i))
+        else:
+            print(url+str (i))
+            
+tarih_Yaz(28)
+
+
+
+
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+tkm=gulsenem.split(':')
+print(tkm)
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+
+
+
+split listede kullanılmaz spliti splitte kullanılabilir!!!
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    print(gul)   
+
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    ayir=gul.split(' ')
+    print(ayir[1:]) #print(ayir) 
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    ayir=gul.split(' ')
+    for i in range(len(ayir)):
+        if i == 0:
+            print(i)
+        else:
+            pass
+        
+rangelen farkını bil (yukarıdaki ayir)!!!!!
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    ayir=gul.split(' ')
+    for i in range(len(ayir)):
+        if i == 0:
+            print(ayir[i])
+        else:
+            pass
+
+
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    ayir=gul.split(' ')
+    aziz=''
+    for i in range(len(ayir)):
+        if i == 0:
+            pass
+        else:
+            aziz+= ayir[i]+' '
+            print(aziz)
+
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    ayir=gul.split(' ')
+    aziz=''
+    for i in range(len(ayir)):
+        if i == 0 or ayir[i].startswith('THY'):
+            pass
+        else:
+            aziz+= ayir[i]+' '
+            print(aziz)
+
+
+
+
+
+
+gulsenem='12:16 ABD ve İsrail İrana saldırdı! Netanyahudan ilk açıklama'
+gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama",
+"11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
+"11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
+"11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",
+"10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
+"10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
+
+
+tkm=gulsenem.split(':')
+tkm2=gulsenem.split(' ')
+print(tkm)
+print(tkm2)
+for i in tkm2:
+    print(i)
+for gul in gulsenem2:
+    ayir=gul.split(' ')
+    aziz=''
+    for i in range(len(ayir)):
+        if i == 0:
+            pass
+        elif ayir[i].startswith('THY') :
+         ayir[i]='TKMY'
+
+        else:
+            aziz+= ayir[i]+' '
+            print(aziz)
+
+
+
